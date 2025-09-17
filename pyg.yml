@@ -1,0 +1,18 @@
+name: pyg-2024
+channels:
+  - conda-forge
+  - pyg
+  - pytorch
+dependencies:
+  - cpuonly
+  - matplotlib=3.9.2
+  - networkx=3.3
+  - numpy=2.1.2
+  - pandas=2.2.3
+  - pyg=2.6.1
+  - python=3.12.7
+  - pytorch::pytorch=2.4.1
+  - pyg:pytorch-cluster=1.6.3
+  - pyg:pytorch-scatter=2.1.2
+  - pyg:pytorch-sparse=0.6.18
+  - scikit-learn=1.5.2
